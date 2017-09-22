@@ -1,0 +1,25 @@
+body  {
+    border-width: medium;
+    margin-bottom: 90px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    border-color: #6060;
+    }
+
+
+h1 {
+  color: white;
+  background: black;
+  margin: 5px;
+  font-style: italic;
+  text-align: center;
+ }
+
+ h2 {
+  color: black;
+  background: #FFFFCC;
+  margin: 5px;
+
+ }
+
