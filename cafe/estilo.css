@@ -1,20 +1,26 @@
 body  {
-    border-width: medium;
-    margin-bottom: 90px;
+    border-width: 10px;
+    
+    margin-bottom: 200px;
     margin-left: 200px;
     margin-right: 200px;
     border-style: solid;
     border-color: #6060;
+    border-top-width: 0px;
+    
     }
 
 
 h1 {
-  color: white;
-  background: black;
-  margin: 5px;
-  font-style: italic;
-  text-align: center;
+    
+    color: white;
+    background: black;
+    margin: 5px;
+    font-style: italic;
+    text-align: center;
  }
+
+
 
  h2 {
   color: black;
@@ -23,3 +29,15 @@ h1 {
 
  }
 
+ 
+  a{
+    color: #8E2323;
+    text-decoration: none;
+    
+ }
+
+a:hover{
+  color: #8E2323;
+  text-decoration: underline;
+
+}
