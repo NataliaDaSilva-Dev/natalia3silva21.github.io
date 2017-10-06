@@ -1,0 +1,34 @@
+body{
+
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	padding: 15px;
+}
+
+th{
+	background: #33ccff;
+}
+
+td{
+	background: #009900;
+}
+
+table {
+	
+
+	border-collapse: collapse;
+	width: 30%;
+	height:30;
+	
+}
+
+.titulo{
+	background: #999999
+}
+
+.imagem{
+	background: #FFFFFF;
+	
+}
