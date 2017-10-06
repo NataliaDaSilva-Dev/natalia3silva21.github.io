@@ -1,43 +1,51 @@
 body  {
-    border-width: 10px;
-    
-    margin-bottom: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
+
+    border-width: 10px;  
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-style: solid;
-    border-color: #6060;
+    border-color: #855E42;
     border-top-width: 0px;
+    
     
     }
 
 
 h1 {
     
-    color: white;
-    background: black;
-    margin: 5px;
+    color: black;
+    background: white;
+    margin: 1px;
     font-style: italic;
+    font-family:times;
+    font-size: 400%; 
     text-align: center;
  }
 
 
 
  h2 {
-  color: black;
-  background: #FFFFCC;
+  color: white;
+  background:black;
   margin: 5px;
 
  }
 
+ h3{
+ 	color:black;
+  background:#FFDEAD;
+  margin: 5px;
+ }
+
  
-  a{
+ a{
     color: #8E2323;
-    text-decoration: none;
-    
+    text-decoration: none;  
  }
 
 a:hover{
-  color: #8E2323;
+  color: #855E42;
   text-decoration: underline;
 
 }
