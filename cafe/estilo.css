@@ -1,41 +1,19 @@
-body  {
-
-    border-width: 10px;  
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-style: solid;
-    border-color: #855E42;
-    border-top-width: 0px;
-    
-    
-    }
-
-
-h1 {
-    
-    color: black;
-    background: white;
-    margin: 1px;
-    font-style: italic;
-    font-family:times;
-    font-size: 400%; 
+h1{
+   
+    font-family: monospace;
+    font-weight: 100;
     text-align: center;
  }
 
+h2{
+	font-family: monospace;
+    font-weight: 100;
+}
 
-
- h2 {
-  color: white;
-  background:black;
-  margin: 5px;
-
- }
-
- h3{
- 	color:black;
-  background:#FFDEAD;
-  margin: 5px;
+h3{
+	color:black;
+	background:#DEB887;
+	margin: 5px;
  }
 
  
@@ -48,4 +26,12 @@ a:hover{
   color: #855E42;
   text-decoration: underline;
 
+}
+
+.conteudo{
+	border-radius: 10px;
+	background-color: #000;
+	border: #191919 solid 1px;
+	opacity: 1.0;
+   
 }

@@ -4,10 +4,43 @@
 	<title>Pedido</title>
 </head>
 <body>
-<form>
-<h1>Café Starbugs</h1><br>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+
+<h1>C A F E &nbsp;&nbsp; S T A R B U G S </h1><br>
 <h2>Pedido online</h2><hr>
 <p>Preecha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</p>
+
+Escolha a variedade dos grãos:
+ <select id="100" name="grãos">
+<option>Grão da Colômbia</option>
+<option>Grão Catuaí</option>
+<option>Grão Acaiá</option>
+<option>Grão Robusta</option>
+<option>Grão Catuaí</option>
+<option>Grão Bourbon</option>
+<option>Grão Arábica</option>
+<option>Grão Kona</option>
+</select>
+  <br><br>
+
+Tipo: <br>
+<input type="radio" name="grãos" value="inteiro">Grãos Inteiros <br>
+<input type="radio" name="grãos" value="moido">Grãos Moídos <br><br>
+
+Extras:<br>
+<input type="checkbox" name="extras">Embalar para presente.<br>
+<input type="checkbox" name="extras">Quero um catálago com cafés especiais.<br><br>
+
+Enviar para:<br>
+Nome: <input type="text" name="nome"><br>
+Endereço: <input type="text" name="endereço"><br>
+Cidade: <input type="Estado" name="estado"><br>
+CEP: <input type="number" name="cep"><br><br>
+Observações:<br>
+<textarea id="textarea" rows="4" cols="50"></textarea><br><br>
+
+<input type="submit" value="Enviar Pedido">
+<input type="reset" value="Limpar">
 	
 </form>
 

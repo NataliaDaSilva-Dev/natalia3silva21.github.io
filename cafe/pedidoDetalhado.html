@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedido Detalhado</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="cafe/estilopedido.css">
+</head>
+<body>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+	<table>
+	<tr>
+		<th colspan="2" class="formheader">Dados do contato</th>
+	</tr>
+
+<tr><td class="formlabel">	Nome Completo:</td><td class="formfield"><input size="40" type="text"  placeholder="Jack Java Lee" name="nome" required="required"></td></tr>
+<tr><td class="formlabel">	Email:</td><td class="formfield"><input size="40" type="text" placeholder="jack.java.lee@gmail.com" name="email" required="required"></td></tr>
+<tr><td class="formlabel">	Telefone:</td><td class="formfield"><input size="15" type="number" placeholder="(55) 99999 9999" name="telefone" ></td></tr>
+
+	<tr>
+		<th colspan="2" class="formheader">Informações do pedido</th>
+	</tr>
+<tr><td class="formlabel">Variedade:</td><td class="formfield"><select id="100" name="grãos">
+<option>Grão da Colômbia</option>
+<option>Grão Catuaí</option>
+<option>Grão Acaiá</option>
+<option>Grão Robusta</option>
+<option>Grão Catuaí</option>
+<option>Grão Bourbon</option>
+<option>Grão Arábica</option>
+<option>Grão Kona</option>
+</select></td></tr>
+
+<tr><td class="formlabel">Quantidade:</td><td class="formfield"><input type="number" placeholder="1" name="quantidade" required="required" min="1" max="100"></td></tr>
+<tr><td class="formlabel">Data limite:</td><td class="formfield"><input type="data" placeholder="dd/mm/aaaa" name="data" required="required" min="13/10/2017"></td></tr>
+<tr><td class="formlabel">Tipo:</td><td class="formfield"><input type="radio" name="grãos" value="inteiro">Grãos Inteiros</td><td class="formfield"></td></tr>
+<td><td class="formfield"><input type="radio" name="grãos" value="moido">Grãos Moídos </td></tr>
+
+<tr><td class="formlabel">Extras:</td><td class="formfield"><input type="checkbox" name="extras">Embalar para presente.</td></tr>
+<tr><td class="formlabel"></td><td class="formfield"><input type="checkbox" name="extras">Quero um catálago com cafés especiais.</td></tr>
+
+<tr>
+	<th class="formheader" colspan="2">Dados de Entrega</th>
+</tr>
+<tr><td>Endereço: </td><td class="formfield"><input type="text" placeholder="Rua das Girafas, Apto 101 - centro" name="endereço" required="required" size="62"></td></tr>
+
+<tr><td>Cidade/Estado:</td><td class="formfield"> <input type="Estado" placeholder="Frederico Westphalen" name="estado" required="required"> / <select>
+<option>RS</option>
+<option>SC</option>
+<option>PR</option>
+<option>MG</option>
+<option>SP</option>
+<option>RJ</option>
+</select></td></tr>
+
+
+<tr><td>CEP:</td><td class="formfield"> <input type="number" placeholder="98400-000" name="cep" required="required"><br><br>
+<tr><td>Observações:</td><td class="formfield"><textarea id="textarea" rows="4" cols="50" placeholder="Sem açucar e sem milho, por favor." rows="4" cols="48"></textarea></td></tr>
+
+<tr><td class="formfield"><input type="reset" value="Limpar"><input type="submit" value="Enviar Pedido"></td></tr>
+
+	
+	</table>
+
+</form>
+
+</body>
+</html>
