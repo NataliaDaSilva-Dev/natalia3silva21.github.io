@@ -3,9 +3,11 @@
 <head>
 	<title>Pedido Detalhado</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="cafe/estilopedido.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
+<p>Preecha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</p>
+
 <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
 	<table>
 	<tr>
@@ -31,8 +33,12 @@
 </select></td></tr>
 
 <tr><td class="formlabel">Quantidade:</td><td class="formfield"><input type="number" placeholder="1" name="quantidade" required="required" min="1" max="100"></td></tr>
+
 <tr><td class="formlabel">Data limite:</td><td class="formfield"><input type="data" placeholder="dd/mm/aaaa" name="data" required="required" min="13/10/2017"></td></tr>
-<tr><td class="formlabel">Tipo:</td><td class="formfield"><input type="radio" name="grãos" value="inteiro">Grãos Inteiros</td><td class="formfield"></td></tr>
+
+<tr><td class="formlabel">Tipo:
+</td><td class="formfield"><input type="radio" name="grãos" value="inteiro">Grãos Inteiros</td></tr>
+
 <td><td class="formfield"><input type="radio" name="grãos" value="moido">Grãos Moídos </td></tr>
 
 <tr><td class="formlabel">Extras:</td><td class="formfield"><input type="checkbox" name="extras">Embalar para presente.</td></tr>
@@ -56,7 +62,7 @@
 <tr><td>CEP:</td><td class="formfield"> <input type="number" placeholder="98400-000" name="cep" required="required"><br><br>
 <tr><td>Observações:</td><td class="formfield"><textarea id="textarea" rows="4" cols="50" placeholder="Sem açucar e sem milho, por favor." rows="4" cols="48"></textarea></td></tr>
 
-<tr><td class="formfield"><input type="reset" value="Limpar"><input type="submit" value="Enviar Pedido"></td></tr>
+<tr><td></td><td class="formfield"><input type="reset" value="Limpar"><input type="submit" value="Enviar Pedido"></td></tr>
 
 	
 	</table>

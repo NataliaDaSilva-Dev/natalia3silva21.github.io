@@ -1,8 +1,14 @@
+p{
+	text-indent:4em;
+}
+img{
+	text-indent:4em;
+}
 h1{
-   
     font-family: monospace;
     font-weight: 100;
     text-align: center;
+
  }
 
 h2{
@@ -16,10 +22,10 @@ h3{
 	margin: 5px;
  }
 
- 
  a{
     color: #8E2323;
-    text-decoration: none;  
+    text-decoration: none; 
+
  }
 
 a:hover{
@@ -27,11 +33,49 @@ a:hover{
   text-decoration: underline;
 
 }
+.paragrafo{
+	text-indent:6em;
+}
 
 .conteudo{
 	border-radius: 10px;
 	background-color: #000;
 	border: #191919 solid 1px;
 	opacity: 1.0;
+	text-indent:4em;
    
 }
+
+th,.diferente{
+	background:#CD6839;
+}
+
+td{
+	background: #CDAA7D;
+}
+table{
+	width: 500px;
+}
+
+a{
+    color: #8E2323;
+    text-decoration: none;  
+ }
+a:hover{
+  color: #855E42;
+  text-decoration: underline;
+}
+.formfield{
+	text-align: left;
+}
+.formlabel{
+	text-align: right;
+}
+.formheader{
+	text-align: left;
+}
+
+
+
+
+
