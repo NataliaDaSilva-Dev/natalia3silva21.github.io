@@ -1,9 +1,7 @@
 p{
-	text-indent:4em;
+	text-indent:2em;
 }
-img{
-	text-indent:4em;
-}
+
 h1{
     font-family: monospace;
     font-weight: 100;
@@ -34,7 +32,7 @@ a:hover{
 
 }
 .paragrafo{
-	text-indent:6em;
+	text-indent:4em;
 }
 
 .conteudo{
@@ -42,7 +40,7 @@ a:hover{
 	background-color: #000;
 	border: #191919 solid 1px;
 	opacity: 1.0;
-	text-indent:4em;
+
    
 }
 
