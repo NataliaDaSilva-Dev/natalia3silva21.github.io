@@ -1,0 +1,22 @@
+.esquerda{
+	text-align: left;
+}
+
+div{
+	background: #F5DEB3;
+}
+
+hr{
+	color: #FFFFFF;
+}
+
+.borda{
+	text-shadow: 1px 1px 1px #FFF;
+	font-weight: bold;
+	 background-color:white; color:black; padding: 4px; 
+}
+
+.verde{
+	color: #2F4F2F;
+
+}
